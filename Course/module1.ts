@@ -5,9 +5,7 @@ async function getBalanceUsingWeb3(address: PublicKey): Promise<number> {
     return connection.getBalance(address);
 }
 
-const publicKey = new PublicKey('7C4jsPZpht42Tw6MjXWF56Q5RQUocjBBmciEjDa8HRtp')
+const publicKey = new PublicKey('Mykhu1HxsGjtHdNHzDSpkspR3mYuWkiStKqmfNXMp3e')
 getBalanceUsingWeb3(publicKey).then(balance => {
-    console.log(balance)
+    console.log(balance / LAMPORTS_PER_SOL + " SOL")
 })
-
-console.log(LAMPORTS_PER_SOL);
