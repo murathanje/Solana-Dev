@@ -1,2 +1,8 @@
 Course/node_modules
 solana-intro/node_modules
+solana-ping-client/
+solana_ping_client/node_modules/
+solana_ping_client/dist/
+solana_ping_client/.env
+
+
